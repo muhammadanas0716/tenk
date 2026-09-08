@@ -19,8 +19,6 @@ tenk lets you have a conversation with SEC filings. Instead of manually reading 
 
 <div align="center">
 
-<img src="static/demo.gif" alt="tenk demo" width="100%">
-
 </div>
 
 #### Why not just use ChatGPT?
