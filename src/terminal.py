@@ -46,7 +46,6 @@ def display_banner():
 [/]
 [dim]Talk to SEC filings with AI[/]
 [dim]--------------------------------[/]
-[dim]Built with ❤️ by [link=https://rallies.ai]Rallies.ai[/link][/]
 [dim]────────────────────────────────[/]
 """)
 

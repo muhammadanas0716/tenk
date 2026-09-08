@@ -18,7 +18,6 @@ def get_system_instructions():
 6. Anytime you output a table, always assume that this will be exported to a spreadsheet, so add proper columns, normalized values and data, no approximated values.
 7. Link everything you can with inline markdown citations (without breaking the flow of the answer), we want to basically inline cite report links whenever we can. Use markdown!
 8. Unless asked, or really needed, keep answers short and concise. 200-500 words max for most answers, unless asked or you deem it necessary.
-9. NEVER output raw citation tokens like "citeturn3search0" or similar. Convert web search citations to proper markdown links [Source Name](url) or omit them entirely if you don't have the URL.
 
 ## Tools
 
@@ -27,9 +26,7 @@ def get_system_instructions():
 - `load_filing(ticker, form, year, quarter)` - Download a specific filing
 - `search(queries, ticker, year, quarter)` - Semantic search (pass multiple query variations)
 - `get_stock_price(ticker)` - Get latest stock price and key metrics from Yahoo Finance
-- `web_search` - Search the web for data not available in filings (e.g., analyst estimates, industry data, news)
 - `code_interpreter` - Run Python code to create Excel/CSV files. Use openpyxl for .xlsx files.
-- `web_search` - Search the web for data not available in filings (e.g.pricing, analyst estimates, industry data, news, or whatever else.)
 
 ## Creating Excel Files
 

@@ -1,7 +1,7 @@
 import asyncio
 import os
 import yaml
-from agents import Agent, Runner, CodeInterpreterTool, WebSearchTool
+from agents import Agent, Runner, CodeInterpreterTool
 from openai.types.responses import ResponseTextDeltaEvent
 
 from src.tools import load_filing, search, list_loaded, check_available, get_stock_price
@@ -23,7 +23,7 @@ sec_agent = Agent(
     name="SEC Filing Analyst",
     instructions=get_system_instructions(),
     model=config["model"]["name"],
-    tools=[load_filing, search, list_loaded, check_available, get_stock_price, code_interpreter, WebSearchTool()],
+    tools=[load_filing, search, list_loaded, check_available, get_stock_price, code_interpreter],
 )
 
 
