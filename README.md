@@ -48,7 +48,7 @@ tenk automates all of that. It fetches filings from SEC EDGAR, indexes them loca
 
 ## Installation
 ```bash
-git clone https://github.com/rallies-ai/tenk.git
+git clone https://github.com/muhammadanas0716/tenk.git
 cd tenk
 pip install -e .
 ```
